@@ -78,7 +78,7 @@ const Projects = () => {
         <div className='mb-12'></div>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-24 gap-y-12'>
           {projects.map((project, index) => (
-            <div key={index} className='flex flex-col items-center'>
+            <div key={index} className='flex flex-col items-center transition-transform transform hover:scale-105'>
               <h2 className='text-xl font-semibold text-[#393D3F] mb-2'>
                 {project.title}
               </h2>

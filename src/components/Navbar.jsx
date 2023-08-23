@@ -2,15 +2,14 @@ import React, { useState } from 'react';
 import { FaBars, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { Link } from 'react-scroll';
-// component that will be exported to App.js and rendered on the navbar of the website
+
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
   return (
     <div className="fixed w-full h-[100px] flex justify-between items-center px-6 bg-red text-[#393D3F]">
-
-     
+      {/* Web Mode Menu */}
       <ul className="hidden md:flex space-x-6 text-xl font-semibold flex-grow items-center justify-end">
         <li>
           <Link className="border border-[#F2A65A] py-3 px-6 hover:bg-[#F2A65A] hover:text-white rounded-lg" to="About" smooth={true} duration={500}>About</Link>
@@ -26,26 +25,20 @@ const Navbar = () => {
         </li>
       </ul>
 
-     
-      <div onClick={handleClick} className="md:hidden z-10"> 
-        {!nav ? <FaBars /> : <FaBars />}
+      {/* Mobile Menu */}
+      <div className="md:hidden z-10">
+        <FaBars onClick={handleClick} />
       </div>
 
-    
-      <ul className={`absolute top-0 right-0 w-full h-screen bg-[#525356] flex flex-col justify-center items-center ${nav ? '' : 'hidden'}`}>
-        <li className="py-8 text-5xl">
-          <Link onClick={handleClick} to="About" smooth={true} duration={500}>About</Link>
-        </li>
-        <li className="py-8 text-5xl">
-          <Link onClick={handleClick} to="Resume" smooth={true} duration={500}>Resume</Link>
-        </li>
-        <li className="py-8 text-5xl">
-          <Link onClick={handleClick} to="Projects" smooth={true} duration={500}>Projects</Link>
-        </li>
-        <li className="py-8 text-5xl">
-          <Link onClick={handleClick} to="Contact" smooth={true} duration={500}>Contact</Link>
-        </li>
-      </ul>
+      {/* Mobile Menu Content */}
+      {nav && (
+        <div className="fixed top-0 left-0 w-full h-full bg-gray-900 text-white flex flex-col items-center justify-center z-20">
+          <Link onClick={handleClick} to="About" smooth={true} duration={500} className="text-4xl mb-4">About</Link>
+          <Link onClick={handleClick} to="Resume" smooth={true} duration={500} className="text-4xl mb-4">Resume</Link>
+          <Link onClick={handleClick} to="Projects" smooth={true} duration={500} className="text-4xl mb-4">Projects</Link>
+          <Link onClick={handleClick} to="Contact" smooth={true} duration={500} className="text-4xl">Contact</Link>
+        </div>
+      )}
 
       <div className="hidden lg:flex fixed flex-col top-[30%] right-0 space-y-4">
         <a className="w-[80px] h-[80px] flex justify-center items-center bg-[#989FCE] text-white rounded-lg hover:bg-[#F2A65A]" href="https://www.linkedin.com/in/arael-tijerina-jr-399220285/">
