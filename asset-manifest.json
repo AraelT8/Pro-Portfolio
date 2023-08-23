@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Pro-Portfolio/static/css/main.79305ff8.css",
-    "main.js": "/Pro-Portfolio/static/js/main.f5239d03.js",
+    "main.css": "/Pro-Portfolio/static/css/main.a3bcd75f.css",
+    "main.js": "/Pro-Portfolio/static/js/main.788c6c42.js",
     "static/media/marvel.png": "/Pro-Portfolio/static/media/marvel.fd683bb731d16dbb5f9c.png",
     "static/media/bookshare.png": "/Pro-Portfolio/static/media/bookshare.e435964c6e92f94cdb0e.png",
     "static/media/quiz.png": "/Pro-Portfolio/static/media/quiz.b47f9487488ef61fc4df.png",
@@ -13,11 +13,11 @@
     "static/media/notes.png": "/Pro-Portfolio/static/media/notes.bd7b94d1b4f6f70abd76.png",
     "static/media/jate.png": "/Pro-Portfolio/static/media/jate.8b13c920fbf2cc5fc519.png",
     "index.html": "/Pro-Portfolio/index.html",
-    "main.79305ff8.css.map": "/Pro-Portfolio/static/css/main.79305ff8.css.map",
-    "main.f5239d03.js.map": "/Pro-Portfolio/static/js/main.f5239d03.js.map"
+    "main.a3bcd75f.css.map": "/Pro-Portfolio/static/css/main.a3bcd75f.css.map",
+    "main.788c6c42.js.map": "/Pro-Portfolio/static/js/main.788c6c42.js.map"
   },
   "entrypoints": [
-    "static/css/main.79305ff8.css",
-    "static/js/main.f5239d03.js"
+    "static/css/main.a3bcd75f.css",
+    "static/js/main.788c6c42.js"
   ]
 }
