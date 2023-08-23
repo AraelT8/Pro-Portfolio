@@ -18,7 +18,7 @@ The Portfolio section showcases diverse projects with visuals linking to live ap
 
 ## Installation
 
-To install this application please clone this repository then run the command "nmp install". This will install the necessary dependencies found in the package.json. 
+To install this application please clone this repository then run the command "npm install". This will install the necessary dependencies found in the package.json. 
 
 ## Usage
 
