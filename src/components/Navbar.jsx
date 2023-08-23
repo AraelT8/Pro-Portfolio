@@ -34,16 +34,16 @@ const Navbar = () => {
     
       <ul className={`absolute top-0 right-0 w-full h-screen bg-[#525356] flex flex-col justify-center items-center ${nav ? '' : 'hidden'}`}>
         <li className="py-8 text-5xl">
-          <Link onClick={handleClick} to="about" smooth={true} duration={500}>About</Link>
+          <Link onClick={handleClick} to="About" smooth={true} duration={500}>About</Link>
         </li>
         <li className="py-8 text-5xl">
-          <Link onClick={handleClick} to="skills" smooth={true} duration={500}>Resume</Link>
+          <Link onClick={handleClick} to="Resume" smooth={true} duration={500}>Resume</Link>
         </li>
         <li className="py-8 text-5xl">
-          <Link onClick={handleClick} to="projects" smooth={true} duration={500}>Projects</Link>
+          <Link onClick={handleClick} to="Projects" smooth={true} duration={500}>Projects</Link>
         </li>
         <li className="py-8 text-5xl">
-          <Link onClick={handleClick} to="contact" smooth={true} duration={500}>Contact</Link>
+          <Link onClick={handleClick} to="Contact" smooth={true} duration={500}>Contact</Link>
         </li>
       </ul>
 
