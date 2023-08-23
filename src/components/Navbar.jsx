@@ -40,7 +40,6 @@ const Navbar = () => {
         </div>
       )}
 
-      {/* Social Links */}
       <div className="hidden lg:flex fixed flex-col top-[30%] right-0 space-y-4">
         <a className="w-[80px] h-[80px] flex justify-center items-center bg-[#989FCE] text-white rounded-lg hover:bg-[#F2A65A]" href="https://www.linkedin.com/in/arael-tijerina-jr-399220285/">
           <FaLinkedin size={48} />
