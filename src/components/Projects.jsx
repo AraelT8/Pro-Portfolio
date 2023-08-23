@@ -8,8 +8,9 @@ import Weather from '../assets/projectsthumbnails/weather.png'
 import Quiz from '../assets/projectsthumbnails/quiz.png'
 import Database from '../assets/projectsthumbnails/database.png'
 import Shop from '../assets/projectsthumbnails/shop.png'
-
+// component that will be exported to App.js and rendered on the projects page of the website
 const Projects = () => {
+  // array of objects that contain the information for each project that will be rendered on the page 
   const projects = [
     {
       title: 'BookShare',

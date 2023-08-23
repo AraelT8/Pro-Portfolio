@@ -2,7 +2,7 @@ import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { Link } from 'react-scroll';
 import profile from '../assets/profile.jpg';
-
+// created a component called Home that will be exported to App.js and rendered on the home page of the website 
 const Home = () => {
   return (
     <div name='About' className='w-full h-screen bg-gradient-to-b from-[#D3F9B5] to-[#989FCE]'>
