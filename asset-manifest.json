@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Pro-Portfolio/static/css/main.79305ff8.css",
+    "main.js": "/Pro-Portfolio/static/js/main.f5239d03.js",
+    "static/media/marvel.png": "/Pro-Portfolio/static/media/marvel.fd683bb731d16dbb5f9c.png",
+    "static/media/bookshare.png": "/Pro-Portfolio/static/media/bookshare.e435964c6e92f94cdb0e.png",
+    "static/media/quiz.png": "/Pro-Portfolio/static/media/quiz.b47f9487488ef61fc4df.png",
+    "static/media/weather.png": "/Pro-Portfolio/static/media/weather.8bb1a91f54a14bc69749.png",
+    "static/media/shop.png": "/Pro-Portfolio/static/media/shop.ccce6ad7b2b579ab92db.png",
+    "static/media/profile.jpg": "/Pro-Portfolio/static/media/profile.d3bf206448d891917d56.jpg",
+    "static/media/resume.pdf": "/Pro-Portfolio/static/media/resume.9088cebb6058f0901ef3.pdf",
+    "static/media/database.png": "/Pro-Portfolio/static/media/database.db61eb80349c151a7001.png",
+    "static/media/notes.png": "/Pro-Portfolio/static/media/notes.bd7b94d1b4f6f70abd76.png",
+    "static/media/jate.png": "/Pro-Portfolio/static/media/jate.8b13c920fbf2cc5fc519.png",
+    "index.html": "/Pro-Portfolio/index.html",
+    "main.79305ff8.css.map": "/Pro-Portfolio/static/css/main.79305ff8.css.map",
+    "main.f5239d03.js.map": "/Pro-Portfolio/static/js/main.f5239d03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79305ff8.css",
+    "static/js/main.f5239d03.js"
+  ]
+}
