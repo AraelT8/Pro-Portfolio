@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaBars, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { Link } from 'react-scroll';
-
+// component that will be exported to App.js and rendered on the navbar of the website
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -54,7 +54,7 @@ const Navbar = () => {
         <a className="w-[80px] h-[80px] flex justify-center items-center bg-[#393D3F] text-white rounded-lg hover:bg-[#F58549]" href="https://github.com/AraelT8">
           <FaGithub size={48} />
         </a>
-        <a className="w-[80px] h-[80px] flex justify-center items-center bg-[#F58549] text-white rounded-lg hover:bg-[#F2A65A]" href="https://twitter.com/">
+        <a className="w-[80px] h-[80px] flex justify-center items-center bg-[#F58549] text-white rounded-lg hover:bg-[#F2A65A]" href="https://twitter.com/digital_Arael">
           <FaTwitter size={48} />
         </a>
         <a className="w-[80px] h-[80px] flex justify-center items-center bg-[#F2A65A] text-white rounded-lg hover:bg-[#F58549]" href="mailto:araeltiejerina@gmail.com">

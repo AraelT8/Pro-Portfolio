@@ -1,3 +1,4 @@
+// import statements for all the icons used on the resume page of the website 
 import React from 'react';
 import Doc from "../assets/docs/resume.pdf"
 import {
@@ -19,7 +20,7 @@ import {
   SiWebpack,
   SiGraphql,
 } from 'react-icons/si';
-
+// component that will be exported to App.js and rendered on the resume page of the website
 const Resume = () => {
   return (
     <div name='Resume' className='w-full h-screen bg-gradient-to-b from-[#989FCE] to-[#D3F9B5] text-[#393D3F]'>

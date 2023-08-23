@@ -1,5 +1,5 @@
 import React from 'react';
-
+// component that will be exported to App.js and rendered on the contact page of the website 
 const Contact = () => {
   return (
     <div name='Contact' className='w-full min-h-screen bg-gradient-to-t from-[#D3F9B5] to-[#989FCE] p-6 md:p-60'>
