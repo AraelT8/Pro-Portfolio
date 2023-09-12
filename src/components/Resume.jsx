@@ -94,7 +94,6 @@ const Resume = () => {
             <SiTailwindcss size={60} className='mx-auto mb-4' />
             <p className='text-lg'>TailWind Css</p>
           </div>
-          {/* Add more skill blocks here */}
         </div>
       </div>
       <div className='text-center py-4 md:py-6'>
