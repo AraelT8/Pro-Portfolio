@@ -1,5 +1,5 @@
 import React from 'react';
-import Doc from '../assets/docs/resume.pdf';
+import Doc from '../assets/docs/UpdatedResume.pdf';
 import {
   FaJs,
   FaGithub,
